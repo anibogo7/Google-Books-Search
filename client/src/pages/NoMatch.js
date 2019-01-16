@@ -19,5 +19,6 @@ function NoMatch() {
             </Row>
         </Container>
     );
-
 }
+
+export default NoMatch;
