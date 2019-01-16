@@ -19,14 +19,14 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGO_URI || "mongodb:<dbuser>:<dbpassword>@ds255784.mlab.com:55784/heroku_0f6lq3sw",
+  process.env.MONGO_URI || "mongodb://localhost/googlebooks",
   {
     userCreateIndex: true,
     useNewURLParser: true
   }
 );
 
-//"mongodb://localhost/googlebooks"
+//"mongodb:<dbuser>:<dbpassword>@ds255784.mlab.com:55784/heroku_0f6lq3sw"
 
 // Send every other request to the React app
 // Define any API routes before this runs
