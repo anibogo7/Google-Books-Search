@@ -1,7 +1,7 @@
 {
-  "name": "mern",
+  "name": "book_search",
   "version": "0.1.0",
-  "description": "NYT Google Book Search App",
+  "description": "Book Search App using NY Times Books and Google",
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
